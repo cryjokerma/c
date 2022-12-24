@@ -1,0 +1,12 @@
+# c
+c学习
+
+#include<stdio.h>
+
+int main()
+{
+	printf("马继祖");
+		
+	return 0;
+
+}
