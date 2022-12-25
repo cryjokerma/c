@@ -1,0 +1,12 @@
+#define _CRT_SECURE_NO_WARNING 1
+#include<stdio.h>
+int main()
+{
+	int a = 10;
+	//c语言中0表示假，非0表示真
+	a=！a;
+	//代表非，常用在if语句if(a）{}   if(!a){}
+	a = sizeof(a);
+	//计算类型或变量或数组大小,单位时字节后面的（）可以省略说明他是操作符不是函数（求类型大小时不可以省略）
+	return 0;
+}
