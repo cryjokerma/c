@@ -1,0 +1,41 @@
+#include<stdio.h>
+#define n 60
+//3.#define 定义的标识符常量,不是全局
+enum SEX
+{ MALE=1,
+FEMALE=2,
+SECRET=3
+
+};
+//枚举常量枚举常量默认从0开始，可以赋常属性
+int m = 50;
+//定义全局变量m
+int main()
+{
+	3.14;
+	//1.字面常量
+	const int num = 20;
+	//2.const 修饰的常变量，不能被改变
+	//const =3;(会报错）
+	printf("num=%d\n", num);
+	
+	printf("n=%d\n", n);
+
+	//枚举常量
+	
+	enum SEX s = MALE;
+	printf("%d\n", MALE);
+	printf("%d\n", FEMALE);
+	printf("%d\n", SECRET);
+	printf("%d\n", s);
+	return 0;
+}
+#include<stdio.h>
+#define n 90
+extern m;
+//对全局变量m进行引用
+int main1()
+{
+	printf("m=%d", n);
+	return 0;
+}
