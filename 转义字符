@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{ // \+字母会转变字符原有的意思
+	printf("c:\test\teset.c\n");
+	//%c 为打印字符,\t为tab即四空格算一个字符
+	printf("%c",'\'');
+	printf("%s\n", "abc\"");
+	//使用\'用来输出单引号，双引号同理使用\"
+	printf("c:\\test\\teset.c\n");
+	//\\的用来打印输出的\
+   
+	printf("\a\a\a\a\a\a\a\a\a\a");
+	//的作用时让计算机蜂鸣
+	//其余的转义字符还有\b退格字符   \f进纸字符   \r回车    \t水平制表符   \v垂直制表符
+	int b= '\130';
+	printf(" % c\n", b);
+	//\ddd的作用是输出ddd所代表的8进制数转换为十进制后的结果，X代表的--ASCII 码值为88    ASCII 码从A-65 开始 a-97
+	printf("%c", '/x30');
+	//48所对应的ASCII码为字符0.
+	//所有的转义字符都只算一个字符
+	
+	return 0;
+
+}
