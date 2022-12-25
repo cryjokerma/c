@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+//使用strlen时需要引用的头文件
+//字符串就是一串字符-用双引号括起来的一串字符
+int main()
+{
+	char arr[] = "hello world.";
+	char arr2[] = "abc";
+	char arr3[] = { 'a','b','c ','\0'};
+	char ch = 'a';
+	//必须在字符串数组末尾加结束标志\0
+	int len = strlen("abv");
+	//strlen求字符串长度，计算字符串长度时不包含\0
+	printf("%s\n", arr2);
+	printf("%s\n", arr3);
+	printf("%d\n",len); 
+	printf("%d\n", strlen(arr3));
+	//如果arr3未添加\0 则计算出来的字符串长度记为随机值
+
+	//字符串末尾有隐藏字符\0,\0是字符串的结束标志，并不算入到字符串内容
+	return 0;
+}
