@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNING 1
+#include<stdio.h>
+int main()
+{
+	int a = 1;
+	int b = 3;
+	int c = 2;
+	a <= b ? printf("%d\n", b) : printf("%d\n", a);
+	//exp1?exp2:exp3是条件操作符 表示如果exp1成立则执行exp2，反之执行exp3
+	int d = (a=a + b,b= a + c,c= c + b);
+	//逗号隔开的一串表达式就是逗号表达式
+	//逗号表达式会从左向右依次计算，整个表达式结果时最后表达式的结果
+	return 0;
+}
