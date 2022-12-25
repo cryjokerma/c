@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNING 1
+#include<stdio.h>
+int main()
+{
+	int line=0;
+	while (line < 10)
+
+	{
+		printf("重置\n");
+		line++;
+	}
+	if (line == 10)
+	{
+		printf("过关");
+	}
+	//循环动作
+	return 0;
+}
