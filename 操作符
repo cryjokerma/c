@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNING 1
+#include<stdio.h>
+int main()
+{
+	int a = 9 % 2;//%是取模的算是操作符
+
+	printf("%d\n", a);
+	int x = 2;
+	int y = x << 1;
+		printf("%d", y);
+		//移位操作符<<和>>是对二进制位进行移动
+		x+=  5;
+		//该字符操作等价于x=x+5
+		int u = 1^ 0;
+		printf("%d\n", u);
+		//操作符&与，|或，^异或,
+
+	return 0;
+}
